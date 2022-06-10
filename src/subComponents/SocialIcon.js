@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import styledComponents from 'styled-components'
 import { Facebook, Github, Twitter, YouTube, LinkedIn } from '../components/AllSvg'
 import { darkTheme } from '../components/Theme'
