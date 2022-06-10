@@ -1,5 +1,4 @@
 import React from 'react'
-import {  Link } from 'react-router-dom';
 import styledComponents from 'styled-components';
 import { Github } from '../components/AllSvg';
 import { motion } from 'framer-motion';
@@ -23,7 +22,7 @@ const Item = {
 
 const Card = (props) => {
 
- const { id, name, description, tags, demo, github } = props.data;
+ const { name, description, tags, demo, github } = props.data;
 
   return (
     <Box variants={Item}>

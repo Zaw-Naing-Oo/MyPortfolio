@@ -2,7 +2,7 @@ import { ThemeProvider } from "styled-components"
 import GlobalStyle from "./globalStyle"
 import { lightTheme } from "./components/Theme"
 import { Routes, Route, useLocation } from "react-router-dom"
-import {Blog, About, Main, Skill, Work} from './components/index'
+import { About, Main, Skill, Work} from './components/index'
 import { AnimatePresence } from "framer-motion"
 import SoundBar from "./subComponents/SoundBar"
 import { useState, useEffect } from "react"
@@ -43,7 +43,6 @@ function App() {
                 <Route path="/" index element={ <Main /> } />
                 <Route path="/about" element={ <About /> } />
                 <Route path="/skill" element={ <Skill /> } />
-                {/* <Route path="/blog" element={ <Blog /> } /> */}
                 <Route path="/work" element={ <Work /> } />
               </Routes>  
             </AnimatePresence>  

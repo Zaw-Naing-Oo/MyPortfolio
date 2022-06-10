@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/static/js/main.a5bea92c.chunk.js",
+    "main.js.map": "/static/js/main.a5bea92c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
+    "static/css/2.f1e0132b.chunk.css": "/static/css/2.f1e0132b.chunk.css",
+    "static/js/2.23497520.chunk.js": "/static/js/2.23497520.chunk.js",
+    "static/js/2.23497520.chunk.js.map": "/static/js/2.23497520.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.f1e0132b.chunk.css.map": "/static/css/2.f1e0132b.chunk.css.map",
+    "static/js/2.23497520.chunk.js.LICENSE.txt": "/static/js/2.23497520.chunk.js.LICENSE.txt",
+    "static/media/Alan-Walker-Faded-Instrumental-_-AllNaijaEntertainment.com_.1bc822a7.mp3": "/static/media/Alan-Walker-Faded-Instrumental-_-AllNaijaEntertainment.com_.1bc822a7.mp3",
+    "static/media/profile-img.5179e446.png": "/static/media/profile-img.5179e446.png",
+    "static/media/spaceman.5ec7fcfa.png": "/static/media/spaceman.5ec7fcfa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ebc510a.js",
+    "static/css/2.f1e0132b.chunk.css",
+    "static/js/2.23497520.chunk.js",
+    "static/js/main.a5bea92c.chunk.js"
+  ]
+}

@@ -49,22 +49,6 @@ const Main = () => {
           </motion.h2>
         </Contact>
 
-        {/* <Blog to="./blog" >
-        <motion.h2
-          initial = {{ 
-            y: -200,
-            transition: { type: 'spring', duration: 1.5, delay: 1}
-          }}
-          animate = {{ 
-            y: 0,
-            transition: { type: 'spring', duration: 1.5, delay: 1}
-          }}
-          whileHover={{ scale: 1.1 }}
-          whileTap = {{ scale: 0.9 }}
-          >
-            Blog
-          </motion.h2>
-        </Blog> */}
 
         <Work to="./work" click={click} >
         <motion.h2
@@ -188,19 +172,8 @@ const Contact = styled.a`
    @media screen and (max-width:400px) {
     right: calc(1rem + 2vw);
     color: ${props => props.click && props.theme.body};
-   }
-   
+   }   
 `;
-
-// const Blog = styled(NavLink)`
-//    color: ${props => props.theme.text};
-//    position: absolute;
-//    top: 50%;
-//    right: 2rem;
-//    text-decoration: none;
-//    transform: rotate(90deg) translate(-50% ,-50%);
-//    z-index: 1;
-// `
 
 const Work = styled(Link)`
    color: ${props => props.theme.text};

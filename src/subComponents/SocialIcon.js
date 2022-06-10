@@ -1,6 +1,6 @@
 import React from 'react'
 import styledComponents from 'styled-components'
-import { Facebook, Github, Twitter, YouTube, LinkedIn } from '../components/AllSvg'
+import { Facebook, Github, Twitter, LinkedIn } from '../components/AllSvg'
 import { darkTheme } from '../components/Theme'
 import { motion } from 'framer-motion'
 import { ExternalLink } from 'react-external-link'
