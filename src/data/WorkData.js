@@ -5,8 +5,8 @@ export const Work = [
         description:"It is build on top of the React JS, with styledComponents, particles.js and cool animations with framer motion.",
         tags:["react","styledComponents", "framer-motion","particles.js"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        demo:"https://zawnaingoo.onrender.com/",
+        github:"https://github.com/Zaw-Naing-Oo/MyPortfolio"
     },
     {
         id:2,
