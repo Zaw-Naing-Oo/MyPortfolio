@@ -27,7 +27,7 @@ const Main = () => {
         <SocialIcon click={click} theme={click ? 'dark' : 'light'} />
 
         <Center click = {click}>
-          <YinYang width={ click ? 120 : 200 } height={ click ? 120 : 200 } fill="currentColor" onClick = { handleClick } />
+          <YinYang  fill="currentColor" onClick = { handleClick } />
           <span>Click Here</span>
         </Center>
 
@@ -227,6 +227,7 @@ const Center = styled.button`
     position: absolute;
     top: ${props => props.click ? '85%' : '50%' };
     left :  ${props => props.click ? '92%' : '50%' };
+
     border: none;
     outline: none;
     background-color: transparent;
@@ -241,6 +242,8 @@ const Center = styled.button`
 
     &>:first-child {
       animation: ${rotate} infinite 1.5s linear;
+      width: ${props => props.click ? '120px' : '200px' };
+      height :  ${props => props.click ? '120px' : '200px' };
     }
 
     &>:last-child {
@@ -251,26 +254,51 @@ const Center = styled.button`
     @media screen and (max-width:1024px) {
       top: ${props => props.click && '85%' };
       left :  ${props => props.click && '92%' };
-      width: ${props => props.click ? '120px' : '170px' };
-      height :  ${props => props.click ? '120px' : '170px' };
+
+      &>:first-child {
+        width: ${props => props.click ? '120px' : '170px' };
+        height :  ${props => props.click ? '120px' : '170px' };
+      }
+     
      }
 
      @media screen and (max-width:768px) {
       top: ${props => props.click && '90%' };
       left :  ${props => props.click && '90%' };
-      width: ${props => props.click ? '80px' : '170px' };
-      height :  ${props => props.click ? '80px' : '170px' };
+
+      &>:first-child {
+        width: ${props => props.click ? '80px' : '170px' };
+        height :  ${props => props.click ? '80px' : '170px' };
+      }
+      
      }
 
      @media screen and (max-width:620px) {
-      width: ${props => props.click ? '80px' : '150px' };
-      height :  ${props => props.click ? '80px' : '150px' };
+
+      &>:first-child {
+        width: ${props => props.click ? '80px' : '150px' };
+        height :  ${props => props.click ? '80px' : '150px' };
+      }
+      
      }
 
      @media screen and (max-width:420px) {
-      width: ${props => props.click ? '40px' : '150px' };
-      height :  ${props => props.click ? '40px' : '150px' };
-     }
+
+      &>:first-child {
+        width: ${props => props.click ? '40px' : '150px' } !important;
+        height :  ${props => props.click ? '40px' : '150px' } !important;
+      }
+      }
+      
+
+    //  @media screen and (max-width:400px) {
+
+    //   &>:first-child {
+    //     width: ${props => props.click ? '35px' : '150px' } !important;
+    //     height :  ${props => props.click ? '35px' : '150px' } !important;
+    //  }
+     
+    //  }
 `;
 
 const DarkDiv = styled.div`
