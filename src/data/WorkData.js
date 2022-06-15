@@ -48,6 +48,16 @@ export const Work = [
         github:"https://github.com/Zaw-Naing-Oo/Store-Shop"
         
     },
+    {
+        id:6,
+        name:"Typescript Todo App",
+        description:"Todo App with Typescript and drag and drop feature.",
+        tags:["react","typescript","react-beautiful-dnd"],
+        
+        demo:"https://typescripttodoapp.netlify.app/",
+        github:"https://github.com/Zaw-Naing-Oo/Tyscript-Todo-App"
+        
+    },
     
   
 ] 
