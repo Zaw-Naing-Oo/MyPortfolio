@@ -40,6 +40,16 @@ export const Work = [
     },
     {
         id:5,
+        name:"Google Search App",
+        description:"Responsive Google clone app build with rapid api and tailwind css.",
+        tags:["react","rapid api","tailwindcss"],
+        
+        demo:"https://googleclone.onrender.com",
+        github:"https://github.com/Zaw-Naing-Oo/Google-Clone"
+        
+    },
+    {
+        id:6,
         name:"Mobile Store Shop",
         description:"A store shop app build using Redux-toolkit.",
         tags:["react","redux-toolkit"],
@@ -49,7 +59,7 @@ export const Work = [
         
     },
     {
-        id:6,
+        id:7,
         name:"Typescript Todo App",
         description:"Todo App with Typescript and drag and drop feature.",
         tags:["react","typescript","react-beautiful-dnd"],
